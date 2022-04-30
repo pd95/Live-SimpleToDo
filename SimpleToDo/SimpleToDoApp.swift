@@ -9,9 +9,21 @@ import SwiftUI
 
 @main
 struct SimpleToDoApp: App {
+    @StateObject private var model = ViewModel()
+    @Environment(\.scenePhase) var scenePhase
+
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                ContentView(model: model)
+
+                SelectSomethingView()
+            }
+        }
+        .onChange(of: scenePhase) { newPhase in
+            if newPhase == .background {
+                model.save()
+            }
         }
     }
 }

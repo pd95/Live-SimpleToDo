@@ -11,6 +11,12 @@
 		17E155DC281D95CD00847EB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E155DB281D95CD00847EB4 /* ContentView.swift */; };
 		17E155DE281D95CE00847EB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17E155DD281D95CE00847EB4 /* Assets.xcassets */; };
 		17E155E1281D95CE00847EB4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17E155E0281D95CE00847EB4 /* Preview Assets.xcassets */; };
+		17E155E8281D95F700847EB4 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E155E7281D95F700847EB4 /* ToDoItem.swift */; };
+		17E155EA281D971800847EB4 /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E155E9281D971800847EB4 /* FileManager-DocumentsDirectory.swift */; };
+		17E155EC281D977000847EB4 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E155EB281D977000847EB4 /* ViewModel.swift */; };
+		17E155EE281D9ABD00847EB4 /* SelectSomethingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E155ED281D9ABD00847EB4 /* SelectSomethingView.swift */; };
+		17E155F0281D9C1600847EB4 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E155EF281D9C1600847EB4 /* DetailView.swift */; };
+		17E155F2281D9D7400847EB4 /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E155F1281D9D7400847EB4 /* ItemRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		17E155DB281D95CD00847EB4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		17E155DD281D95CE00847EB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17E155E0281D95CE00847EB4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		17E155E7281D95F700847EB4 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		17E155E9281D971800847EB4 /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
+		17E155EB281D977000847EB4 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		17E155ED281D9ABD00847EB4 /* SelectSomethingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectSomethingView.swift; sourceTree = "<group>"; };
+		17E155EF281D9C1600847EB4 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		17E155F1281D9D7400847EB4 /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				17E155D9281D95CD00847EB4 /* SimpleToDoApp.swift */,
 				17E155DB281D95CD00847EB4 /* ContentView.swift */,
+				17E155F1281D9D7400847EB4 /* ItemRow.swift */,
+				17E155EF281D9C1600847EB4 /* DetailView.swift */,
+				17E155ED281D9ABD00847EB4 /* SelectSomethingView.swift */,
+				17E155E7281D95F700847EB4 /* ToDoItem.swift */,
+				17E155EB281D977000847EB4 /* ViewModel.swift */,
+				17E155E9281D971800847EB4 /* FileManager-DocumentsDirectory.swift */,
 				17E155DD281D95CE00847EB4 /* Assets.xcassets */,
 				17E155DF281D95CE00847EB4 /* Preview Content */,
 			);
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17E155EC281D977000847EB4 /* ViewModel.swift in Sources */,
 				17E155DC281D95CD00847EB4 /* ContentView.swift in Sources */,
 				17E155DA281D95CD00847EB4 /* SimpleToDoApp.swift in Sources */,
+				17E155F0281D9C1600847EB4 /* DetailView.swift in Sources */,
+				17E155EE281D9ABD00847EB4 /* SelectSomethingView.swift in Sources */,
+				17E155EA281D971800847EB4 /* FileManager-DocumentsDirectory.swift in Sources */,
+				17E155E8281D95F700847EB4 /* ToDoItem.swift in Sources */,
+				17E155F2281D9D7400847EB4 /* ItemRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
